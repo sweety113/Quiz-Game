@@ -42,7 +42,7 @@ for question_num in range (len(question_bank)):# 0 1 2 3 4 index
         print("Incorrect answer")
         print(f"The correct answer is {question_bank[question_num]['answer']}")
 
-    print(f"Your correct score is {score}/{question_num}")
+    print(f"Your correct score is {score}/{question_num+1}")
 print(f"Your have given {score} correct answers")
 
 print(f"Your score is {score/len(question_bank)*100}%")
